@@ -1,3 +1,5 @@
+# Book Directory API - Node.js & Express
+
 # 📚 Book Directory Management System  
 
 ## 📌 Project Overview  
@@ -49,7 +51,7 @@ The project structure may evolve as the development progresses. Below is an init
 ✔️ CRUD operations for Books  
 ✔️ CRUD operations for Authors  
 ✔️ Role-based access control  
-✔️ Database integration with PostgreSQL/MySQL  
+✔️ Database integration with PostgreSQL 
 
 ---
 
@@ -102,3 +104,8 @@ As this is my learning project, any suggestions or improvements are welcome! Fee
 
 ## 📞 Contact  
 For any queries or suggestions, reach out to me via GitHub: [@Raviraagul](https://github.com/Raviraagul)  
+
+---
+
+## Tags
+Node.js, Express, JavaScript, Backend, REST API, PostgreSQL
