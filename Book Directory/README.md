@@ -15,14 +15,14 @@ The backend is developed using **Express.js**, with **PostgreSQL/MySQL** as the 
 The project structure may evolve as the development progresses. Below is an initial model:  
 
 ```
-/book directory               # Project folder
-  |-- src                     # Source code
-  |   |-- server.js           # Main entry point of the backend
+/book directory                   # Project folder
+  |-- src                         # Source code
+  |   |-- server.js               # Main entry point of the backend
   |   |-- routes                        
-  |   |   |-- index.js        # Main router file
-  |   |   |-- userRoutes.js   # Routes for user-related operations
-  |   |   |-- bookRoutes.js   # Routes for book-related operations
-  |   |   |-- authorRoutes.js # Routes for author-related operations
+  |   |   |-- index.js            # Main router file
+  |   |   |-- userRoutes.js       # Routes for user-related operations
+  |   |   |-- bookRoutes.js       # Routes for book-related operations
+  |   |   |-- authorRoutes.js     # Routes for author-related operations
   |   |-- controllers                    
   |   |   |-- userController.js   # Handles user-related logic
   |   |   |-- bookController.js   # Handles book-related logic
