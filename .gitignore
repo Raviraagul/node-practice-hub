@@ -1,0 +1,41 @@
+# Node modules (dependencies)
+node_modules/
+
+# Environment files (store API keys, DB credentials, etc.)
+**/.env
+
+# Logs
+logs/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# npm / yarn debug files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build files (if applicable)
+dist/
+build/
+
+# Cache & temp files
+tmp/
+temp/
+*.tmp
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Coverage reports (for testing)
+coverage/
+.nyc_output/
+
+# Ignore uploads folder (if exists, for user-uploaded content)
+uploads/
+
+# Ignore Book Directory-specific node_modules
+Book Directory/node_modules/
