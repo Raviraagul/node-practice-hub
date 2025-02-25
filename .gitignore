@@ -30,6 +30,8 @@ temp/
 .vscode/
 .idea/
 
+.vscode/launch.json
+
 # Coverage reports (for testing)
 coverage/
 .nyc_output/
