@@ -11,7 +11,7 @@ const routes = require('./routes');
 app.use('/', routes);
 
 // Test Route - Check PostgreSQL Connection
-app.get('/test-db', async (req, res) => {
+/* app.get('/test-db', async (req, res) => {
     try {
         // const result = await psql.query('SELECT NOW()');
         // res.json({ message: "Connected to PostgreSQL!", timestamp: result.rows[0] });
@@ -29,6 +29,6 @@ app.get('/test-db', async (req, res) => {
         console.error(err);
         res.status(500).json({ error: "Database connection failed" });
     }
-});
+}); */
 
 app.listen(port);
