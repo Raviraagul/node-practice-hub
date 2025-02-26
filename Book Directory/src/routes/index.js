@@ -8,7 +8,9 @@ const router = express.Router();
 You can use controllers with models if you're leveraging promises with the pg library or using an ORM like Sequelize for better abstraction and structure.*/
 
 const book = require("../models/books");
+
 router.get("/books", book.bookList); 
+router.post("/add-book", book.addBook);
 
 
 
